@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+20&family=Pixelify+Sans:wght@400..700&display=swap");
 
 :root {
-  --navbar-height: 100px;
+  --navbar-height: 80px;
   --background-color1: white;
   --background-color2: grey;
   --font-color1: black;
@@ -22,7 +22,8 @@ body {
 
 #navbar {
   background-color: var(--background-color1);
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 600;
   display: flex;
   justify-content: flex-end;
   column-gap: 30px;
@@ -287,7 +288,7 @@ a {
 }
 
 .project-tile {
-  width: 700px;
+  width: 500px;
   height: 660px;
   opacity: 1;
   background-color: white;
@@ -342,7 +343,7 @@ a {
 }
 
 #project-img {
-  width: 600px;
+  width: 80%;
   height: 400px;
   object-fit: cover;
   display: block;
@@ -386,10 +387,16 @@ a {
 
 footer {
   height: 100px;
-  font-size: 25px;
+  font-size: 20px;
   text-align: right;
-  padding: 20px 20px 0;
+  padding-right: 20px;
   border-top: 4px solid black;
+  color: white;
+  background-color: black;
+}
+
+footer p {
+  margin-top: 35px;
 }
 
 .fa-linkedin:hover {
@@ -401,7 +408,7 @@ footer {
 }
 
 .fa-github:hover {
-  color: #c5c5c5;
+  color: #6a00ff;
 }
 
 @keyframes gradient {
